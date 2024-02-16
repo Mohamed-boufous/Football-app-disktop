@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="719.0" prefWidth="849.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="173.0" prefWidth="527.0">
+               <children>
+                  <VBox prefHeight="37.0" prefWidth="623.0" />
+                  <VBox onMouseClicked="#creattournement" prefHeight="93.0" prefWidth="527.0">
+                     <children>
+                        <StackPane prefHeight="94.0" prefWidth="358.0" styleClass="seccon" stylesheets="@application.css">
+                           <children>
+                              <ImageView fitHeight="108.0" fitWidth="626.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/Frame%207.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </StackPane>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="57.0" prefWidth="550.0" />
+            <VBox prefHeight="105.0" prefWidth="550.0">
+               <children>
+                  <StackPane prefHeight="206.0" prefWidth="550.0">
+                     <children>
+                        <ImageView fitHeight="150.0" fitWidth="545.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Frame%2014%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </StackPane>
+               </children>
+            </VBox>
+            <TableView fx:id="table" styleClass="firstcon1">
+              <columns>
+                <TableColumn fx:id="tnoms" maxWidth="1000.0" minWidth="182.0" prefWidth="182.0" text="Tournements Names" />
+                  <TableColumn fx:id="actionsColumn" prefWidth="443.0" text="add" />
+              </columns>
+            </TableView>
+            <StackPane prefHeight="56.0" prefWidth="550.0" />
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <VBox prefHeight="586.0" prefWidth="226.0" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane prefHeight="950.0" prefWidth="246.0" styleClass="firstcon" stylesheets="@../../../../Users/user/3D%20Objects/JavaFX_pjrct_mazoul/src/application/application.css">
+               <children>
+                  <ImageView fitHeight="104.0" fitWidth="144.0" layoutX="57.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%201%20(1)%202.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="59.0" fitWidth="184.0" layoutX="14.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%2014%20(2).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>

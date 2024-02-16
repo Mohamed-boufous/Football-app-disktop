@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="200.0" prefWidth="100.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="67.0" prefWidth="600.0" spacing="30.0">
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="66.0" prefWidth="52.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </VBox>
+            <BorderPane prefHeight="66.0" prefWidth="1122.0">
+               <center>
+                  <VBox prefWidth="561.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="66.0" prefWidth="380.0">
+                           <children>
+                              <Label text="Tournement information" textFill="#0348ac">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <HBox alignment="TOP_CENTER" prefHeight="46.0" prefWidth="380.0">
+                           <children>
+                              <ImageView fitHeight="96.0" fitWidth="341.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../images/Frame%2033.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="633.0">
+         <children>
+            <BorderPane prefHeight="44.0" prefWidth="1204.0">
+               <left>
+                  <Label fx:id="torg" text="Tournement Organizer :" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="47.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </left>
+               <center>
+                  <TextField fx:id="ttorg" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="100.0" right="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="633.0">
+         <children>
+            <BorderPane prefHeight="44.0" prefWidth="1204.0">
+               <left>
+                  <Label fx:id="tname" text="Tournement Name :" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="47.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </left>
+               <center>
+                  <TextField fx:id="ttname" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="130.0" right="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="633.0">
+         <children>
+            <BorderPane prefHeight="44.0" prefWidth="1204.0">
+               <left>
+                  <Label fx:id="tcont" text="Contact Information :" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="47.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </left>
+               <center>
+                  <TextField fx:id="ttcont" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="120.0" right="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="633.0">
+         <children>
+            <BorderPane prefHeight="44.0" prefWidth="1204.0">
+               <left>
+                  <Label fx:id="tnumteams" text="Number of Teames :" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="47.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </left>
+               <center>
+                  <TextField fx:id="ttnumteams" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="130.0" right="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="633.0">
+         <children>
+            <BorderPane prefHeight="44.0" prefWidth="1204.0">
+               <left>
+                  <Label fx:id="tdebut" text="Start Date :" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="47.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </left>
+               <center>
+                  <TextField fx:id="ttdebut" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="210.0" right="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="633.0">
+         <children>
+            <BorderPane prefHeight="44.0" prefWidth="1204.0">
+               <left>
+                  <Label fx:id="tfin" text="End Date :" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="47.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </left>
+               <center>
+                  <TextField fx:id="ttfin" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="220.0" right="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="45.0" prefWidth="633.0">
+         <children>
+            <BorderPane prefHeight="44.0" prefWidth="1204.0">
+               <left>
+                  <Label fx:id="tnumplayers" text="Number of players per teame :" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="47.0" />
+                     </BorderPane.margin>
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </left>
+               <center>
+                  <TextField fx:id="ttnumplayers" BorderPane.alignment="CENTER">
+                     <BorderPane.margin>
+                        <Insets left="40.0" right="40.0" />
+                     </BorderPane.margin>
+                  </TextField>
+               </center>
+            </BorderPane>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER_LEFT" prefHeight="68.0" prefWidth="1203.0">
+         <children>
+            <BorderPane prefHeight="70.0" prefWidth="1203.0">
+               <right>
+                  <ImageView fitHeight="77.0" fitWidth="86.0" onMouseClicked="#next" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                     <image>
+                        <Image url="@../images/Frame%2011.png" />
+                     </image>
+                  </ImageView>
+               </right>
+            </BorderPane>
+         </children>
+      </HBox>
+   </children>
+</VBox>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="200.0" prefWidth="100.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller2">
+   <children>
+      <VBox prefHeight="87.0" prefWidth="550.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select the cup icon :">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <VBox prefHeight="194.0" prefWidth="550.0">
+         <children>
+            <HBox prefHeight="124.0" prefWidth="550.0">
+               <children>
+                  <HBox prefHeight="150.0" prefWidth="358.0" />
+                  <ImageView fx:id="img1" fitHeight="150.0" onMouseClicked="#handleLogo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%2025.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets right="13.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fx:id="img2" fitHeight="150.0" fitWidth="110.0" onMouseClicked="#handleLogo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%2026.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="14.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fx:id="img3" fitHeight="150.0" fitWidth="122.0" onMouseClicked="#handleLogo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%2027.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="19.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <ImageView fx:id="img4" fitHeight="144.0" fitWidth="155.0" onMouseClicked="#handleLogo" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%2028.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets left="17.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <HBox prefHeight="124.0" prefWidth="352.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox prefHeight="87.0" prefWidth="550.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Text layoutX="14.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pitch Type    :">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+      <HBox prefHeight="135.0" prefWidth="550.0">
+         <children>
+            <HBox prefHeight="124.0" prefWidth="358.0" />
+            <ImageView fx:id="imgter1" fitHeight="150.0" onMouseClicked="#handleter" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Frame%2021.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="45.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="imgter2" fitHeight="150.0" onMouseClicked="#handleter" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Frame%2022.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="124.0" prefWidth="352.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="189.0" prefWidth="550.0">
+         <children>
+            <HBox prefHeight="124.0" prefWidth="358.0" />
+            <ImageView fx:id="imgter3" fitHeight="150.0" onMouseClicked="#handleter" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Frame%2023.png" />
+               </image>
+               <HBox.margin>
+                  <Insets right="45.0" />
+               </HBox.margin>
+            </ImageView>
+            <ImageView fx:id="imgter4" fitHeight="150.0" fitWidth="241.0" onMouseClicked="#handleter" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Frame%2024.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="124.0" prefWidth="352.0" />
+         </children>
+      </HBox>
+      <HBox prefHeight="109.0" prefWidth="550.0">
+         <children>
+            <HBox prefHeight="84.0" prefWidth="51.0" />
+            <HBox prefHeight="57.0" prefWidth="122.0" />
+            <HBox prefHeight="78.0" prefWidth="858.0" />
+            <HBox prefHeight="78.0" prefWidth="121.0">
+               <children>
+                  <ImageView fitHeight="66.0" fitWidth="119.0" onMouseClicked="#ajouter" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%2012.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

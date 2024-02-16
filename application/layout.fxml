@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="1012.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerClassement">
+   <children>
+      <TableView fx:id="classementTable" prefHeight="1012.0" prefWidth="754.0" styleClass="firstcon1" stylesheets="@application.css" tableMenuButtonVisible="true">
+         <columns>
+            <TableColumn fx:id="rankColumn" prefWidth="75.0" text="rank" />
+            <TableColumn fx:id="teamColumn" prefWidth="75.0" text="team" />
+            <TableColumn fx:id="playColumn" prefWidth="75.0" text="play" />
+            <TableColumn fx:id="gdColumn" prefWidth="75.0" text="gd" />
+            <TableColumn fx:id="pointsColumn" prefWidth="75.0" text="points" />
+         </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</VBox>

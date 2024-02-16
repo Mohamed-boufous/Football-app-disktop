@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="872.0" style="-fx-background-color: WHITE;" stylesheets="@application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Contscrool">
+   <left>
+      <VBox prefHeight="844.0" prefWidth="226.0" style="-fx-background-color: Blue;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="226.0" prefHeight="1067.0" prefWidth="237.0">
+               <children>
+                  <ImageView fitHeight="59.0" fitWidth="184.0" layoutX="14.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../images/Frame%2014%20(2).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </left>
+   <top>
+      <HBox prefHeight="176.0" prefWidth="1403.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="176.0" prefWidth="226.0" style="-fx-background-color: BLUE;">
+               <children>
+                  <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minWidth="226.0" prefHeight="176.0" prefWidth="237.0" styleClass="firstcon1">
+                     <children>
+                        <ImageView fitHeight="104.0" fitWidth="144.0" layoutX="57.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../bin/images/Frame%201%20(1)%202.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="176.0" style="-fx-background-color: WHITE;">
+               <children>
+                  <HBox />
+                  <Button fx:id="backButton" mnemonicParsing="false" onAction="#back" prefHeight="180.0" prefWidth="270.0" style="-fx-background-color: #F5F5F5;" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets bottom="20.0" left="40.0" top="20.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../bin/images/mingcute_information-fill.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="addButton" mnemonicParsing="false" onAction="#add" prefHeight="180.0" prefWidth="270.0" style="-fx-background-color: #F5F5F5;">
+                     <HBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="90.0" fitWidth="90.0" onMouseClicked="#add" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/equipe-de-football%20(1).png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="addButtonMatch" mnemonicParsing="false" onAction="#addMatch" prefHeight="180.0" prefWidth="270.0" style="-fx-background-color: #F5F5F5;">
+                     <HBox.margin>
+                        <Insets bottom="20.0" top="20.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/calendrier.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <Button fx:id="CLASSER" mnemonicParsing="false" onAction="#Classement" prefHeight="180.0" prefWidth="270.0" style="-fx-background-color: #F5F5F5;">
+                     <HBox.margin>
+                        <Insets bottom="20.0" right="35.0" top="20.0" />
+                     </HBox.margin>
+                     <graphic>
+                        <ImageView fitHeight="90.0" fitWidth="90.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/Ranking%20icon.png" />
+                           </image>
+                        </ImageView>
+                     </graphic></Button>
+                  <HBox />
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane fitToWidth="true" prefHeight="1012.0" prefWidth="754.0">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1014.0" prefWidth="1170.0">
+                     <children>
+                        <VBox prefHeight="1026.0" prefWidth="1135.0" style="-fx-background-color: WHITE;" AnchorPane.bottomAnchor="-12.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="175.0" prefWidth="1164.0">
+                                 <children>
+                                    <VBox alignment="CENTER" prefHeight="125.0" prefWidth="300.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 17px;">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <HBox.margin>
+                                          <Insets bottom="6.0" left="20.0" right="20.0" top="6.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <Label text="Tournement name :" textFill="#34b0c8">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="tname" text="-">
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox alignment="CENTER" prefHeight="125.0" prefWidth="300.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 17px;">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <HBox.margin>
+                                          <Insets bottom="8.0" right="20.0" top="8.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <Label text="Football type :" textFill="#34b0c8">
+                                             <font>
+                                                <Font size="20.0" />
+                                             </font>
+                                          </Label>
+                                          <Label fx:id="idfootb" text="-">
+                                             <font>
+                                                <Font size="34.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </VBox>
+                                    <VBox alignment="CENTER" prefHeight="141.0" prefWidth="300.0" spacing="38.0">
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                       <HBox.margin>
+                                          <Insets bottom="8.0" right="20.0" top="8.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <HBox alignment="CENTER" prefHeight="64.0" prefWidth="300.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 17px;">
+                                             <children>
+                                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                                   <children>
+                                                      <Label text="Teames :" textFill="#34b0c8">
+                                                         <font>
+                                                            <Font size="20.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                                   <children>
+                                                      <Label fx:id="tnumteams" text="-">
+                                                         <font>
+                                                            <Font size="34.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="64.0" prefWidth="300.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 17px;">
+                                             <children>
+                                                <VBox alignment="CENTER" prefHeight="61.0" prefWidth="124.0">
+                                                   <children>
+                                                      <Label text="Players per teame :" textFill="#34b0c8" />
+                                                   </children>
+                                                </VBox>
+                                                <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                                                   <children>
+                                                      <Label fx:id="tnumplayer" text="-">
+                                                         <font>
+                                                            <Font size="34.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </VBox>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                    <AnchorPane prefHeight="175.0" prefWidth="164.0">
+                                       <children>
+                                          <ImageView fx:id="imglogo" fitHeight="151.0" fitWidth="226.0" layoutX="-3.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/image%206.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="307.0" prefWidth="1051.0">
+                                 <children>
+                                    <VBox prefHeight="298.0" prefWidth="387.0">
+                                       <HBox.margin>
+                                          <Insets bottom="8.0" left="20.0" right="20.0" top="8.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <ImageView fx:id="imgeter" fitHeight="366.0" fitWidth="444.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/mini-futbol-sahasi-ozellikleri-ve-olculeri%201.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </VBox>
+                                    <VBox alignment="CENTER" prefHeight="298.0" prefWidth="638.0" spacing="38.0">
+                                       <HBox.margin>
+                                          <Insets bottom="8.0" right="30.0" top="8.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <VBox alignment="CENTER" prefHeight="328.0" prefWidth="507.0" style="-fx-background-radius: 17px; -fx-background-color: #F5F5F5;">
+                                             <children>
+                                                <HBox alignment="CENTER" prefHeight="81.0" prefWidth="507.0" spacing="20.0">
+                                                   <children>
+                                                      <Label text="Start Date: " textFill="#34b0c8">
+                                                         <font>
+                                                            <Font size="20.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="tstart" text="-">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" prefHeight="81.0" prefWidth="507.0" spacing="20.0">
+                                                   <children>
+                                                      <Label text="End Date :" textFill="#34b0c8">
+                                                         <font>
+                                                            <Font size="20.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="tend" text="-">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" prefHeight="81.0" prefWidth="507.0" spacing="20.0">
+                                                   <children>
+                                                      <Label text="Number of goals scored :" textFill="#34b0c8">
+                                                         <font>
+                                                            <Font size="20.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="totgoals" text="-">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                          <VBox alignment="CENTER" prefHeight="200.0" prefWidth="621.0" style="-fx-background-radius: 17px; -fx-background-color: #F5F5F5;">
+                                             <children>
+                                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                                                   <children>
+                                                      <Label text="Organizer :" textFill="#34b0c8">
+                                                         <font>
+                                                            <Font size="20.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="torganizer" text="-">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+                                                   <children>
+                                                      <Label text="Contact :" textFill="#34b0c8">
+                                                         <font>
+                                                            <Font size="20.0" />
+                                                         </font>
+                                                      </Label>
+                                                      <Label fx:id="tcontact" text="-">
+                                                         <font>
+                                                            <Font size="24.0" />
+                                                         </font>
+                                                      </Label>
+                                                   </children>
+                                                </HBox>
+                                             </children>
+                                          </VBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="198.0" prefWidth="1042.0">
+                                 <children>
+                                    <VBox alignment="CENTER_RIGHT" prefHeight="182.0" prefWidth="340.0">
+                                       <HBox.margin>
+                                          <Insets bottom="8.0" left="20.0" right="20.0" top="8.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fitHeight="23.0" fitWidth="119.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/Line%2022.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fitHeight="23.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/Line%2021.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fitHeight="120.0" fitWidth="326.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/Line%2020.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                    <VBox alignment="TOP_CENTER" prefHeight="198.0" prefWidth="360.0" style="-fx-background-color: #F5F5F5; -fx-border-color: #34b0c8; -fx-border-radius: 17px; -fx-background-radius: 17px; -fx-border-width: 4px;">
+                                       <HBox.margin>
+                                          <Insets bottom="12.0" right="20.0" top="12.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <HBox alignment="CENTER" prefHeight="78.0" prefWidth="343.0">
+                                             <children>
+                                                <Label text="Current Winner" textFill="#34b0c8">
+                                                   <font>
+                                                      <Font size="30.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER" prefHeight="33.0" prefWidth="343.0">
+                                             <children>
+                                                <Label fx:id="winnerLabel" text="-">
+                                                   <font>
+                                                      <Font size="24.0" />
+                                                   </font>
+                                                </Label>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                    <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="340.0">
+                                       <HBox.margin>
+                                          <Insets bottom="8.0" right="30.0" top="8.0" />
+                                       </HBox.margin>
+                                       <children>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fitHeight="23.0" fitWidth="119.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/Line%2022.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fitHeight="23.0" fitWidth="216.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/Line%2021.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                          <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                             <children>
+                                                <ImageView fitHeight="120.0" fitWidth="326.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@../../../AYOUBEPROJECTEXEMPLE/src/application/Line%2020.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </children>
+                                          </HBox>
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" prefHeight="206.0" prefWidth="1135.0">
+                                 <children>
+                                    <HBox alignment="CENTER" prefHeight="172.0" prefWidth="1045.0" style="-fx-background-color: #F5F5F5; -fx-background-radius: 17px;">
+                                       <children>
+                                          <VBox alignment="CENTER" prefHeight="156.0" prefWidth="378.0" />
+                                          <VBox alignment="CENTER" prefHeight="156.0" prefWidth="392.0" />
+                                       </children>
+                                       <HBox.margin>
+                                          <Insets bottom="8.0" left="20.0" right="20.0" top="8.0" />
+                                       </HBox.margin>
+                                    </HBox>
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </center>
+  
+</BorderPane>
